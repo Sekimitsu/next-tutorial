@@ -4,7 +4,7 @@ import styles from "@/styles/Home.module.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export function main() {
+export function Underitem() {
   return (
     <>
         <div className={styles.grid}>
