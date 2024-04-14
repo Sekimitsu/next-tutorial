@@ -57,7 +57,7 @@ export function main() {
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Deploys <span>-&gt;</span>
             </h2>
             <p>
               Instantly deploy your Next.js site to a shareable URL
