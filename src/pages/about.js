@@ -7,7 +7,7 @@ import { Links } from "../../component/Links";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export function Home() {
+export default function Home() {
   return (
     <>
       <Head>
