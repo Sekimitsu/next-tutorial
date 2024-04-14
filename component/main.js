@@ -7,8 +7,6 @@ const inter = Inter({ subsets: ["latin"] });
 export function main() {
   return (
     <>
-      <main className={`${styles.main} ${inter.className}`}>
-        
         <div className={styles.grid}>
           <a
             href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
@@ -67,7 +65,6 @@ export function main() {
             </p>
           </a>
         </div>
-      </main>
     </>
   );
 }
