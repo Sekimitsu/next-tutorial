@@ -1,0 +1,14 @@
+.header {
+    border-bottom: 1px solid #eaeaea;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link {
+    padding: 8px 24px;
+    font-size: 1.2rem;
+}
+.link:hover {
+    color: #0070f3;
+}
