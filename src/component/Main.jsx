@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import { Links } from "./Links";
 import { Headline } from "./Headline";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export function Main(props) {
