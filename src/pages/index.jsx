@@ -2,10 +2,19 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import { Main } from "../component/Main";
 import { Header } from "../component/Header";
+import { useCallback } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+
+  const foo = 1;
+
+  const handleClick = useCallback((e) => {
+    e.preventDefault();
+    alert(foo);
+  },[]);
+
   return (
     <>
       <Head>
@@ -16,6 +25,10 @@ export default function Home() {
       </Head>
 
       <Header />
+
+      <a href="/about.jsx" onClick={handleClick} >
+        ボタン
+      </a>
       
       <Main page="index" />
 
